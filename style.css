@@ -62,7 +62,7 @@ body {
 	text-align: left;
 	font-size: 1em; /* используем безопасные шрифтовые CSS стеки */
 	min-height:100%;
-	 font-family: 'Open Sans';
+	 font-family: 'Open Sans', sans-serif;
 }
 a, a:visited { /* порядок правил для ссылок имеет значение */
 	color: #339933;
@@ -96,12 +96,74 @@ img{
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
-  src: url('fonts/open-sans-v13-latin-600.eot'); /* IE9 Compat Modes */
+  src: url('open-sans-v13-latin-600.eot'); /* IE9 Compat Modes */
   src: local('Open Sans Semibold'), local('OpenSans-Semibold'),
-       url('fonts/open-sans-v13-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/open-sans-v13-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
-       url('fonts/open-sans-v13-latin-600.woff') format('woff'), /* Modern Browsers */
-       url('fonts/open-sans-v13-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('fonts/open-sans-v13-latin-600.svg#OpenSans') format('svg'); /* Legacy iOS */
+       url('open-sans-v13-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('open-sans-v13-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+       url('open-sans-v13-latin-600.woff') format('woff'), /* Modern Browsers */
+       url('open-sans-v13-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('open-sans-v13-latin-600.svg#OpenSans') format('svg'); /* Legacy iOS */
 }
 /*Open Sans */
+header{
+	background:#292929;
+	overflow:hidden;
+}
+	.center-block-main{
+		margin:0 auto;
+		max-width:990px;
+	}
+		.logo{
+			float:left;
+			margin-top:45px;
+		}
+		
+		.menu{
+			float:right;
+		}
+		.menu li{
+			float:left;
+			font-weight:600;
+		}
+		.menu li a{
+			border-bottom:3px solid #292929;
+			color:#fff;
+			padding:50px 35px;
+			display:block;
+			text-decoration:none;
+		}
+		.menu li a:hover{
+			color:#58c93a;
+			border-bottom:3px solid #58c93a;
+			border-left:1px solid #1d1d1d;
+			border-right:1px solid #1d1d1d;
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
