@@ -111,7 +111,7 @@ header{
 }
 	.center-block-main{
 		margin:0 auto;
-		max-width:990px;
+		max-width:980px;
 	}
 		.logo{
 			float:left;
@@ -138,6 +138,16 @@ header{
 			border-left:1px solid #1d1d1d;
 			border-right:1px solid #1d1d1d;
 		}
+main{
+	float:left;
+	width:63.2%;
+	margin-top:80px;
+}
+aside{
+	float:right;
+	width:28.57%;
+	margin-top:80px;
+}
 		
 		
 		
