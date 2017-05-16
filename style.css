@@ -223,8 +223,27 @@ aside{
 		right:20px;
 		top:12px;
 	}
-
-		
+.pager{
+	border-top:1px solid #e1e0e0;
+	font-size:1.125em;
+	text-transform:uppercase;
+	font-weight:600;
+	padding:30px;
+}
+	.pager a{
+		text-decoration:none;
+		color:#818181;
+	}
+	.pager a:hover{
+		text-decoration:underline;
+		color:#393;
+	}
+	.PREVIOUS-link{
+		float:left;
+	}
+	.NEXT-link{
+		float:right;
+	}
 		
 		
 		
