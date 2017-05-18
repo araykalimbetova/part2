@@ -117,7 +117,6 @@ header{
 			float:left;
 			margin-top:45px;
 		}
-		
 		.menu{
 			float:right;
 		}
@@ -131,13 +130,20 @@ header{
 			padding:50px 35px;
 			display:block;
 			text-decoration:none;
+			border-right:1px solid #1d1d1d;
+		}
+		.menu:first-child{
+			border-left:1px solid #1d1d1d;
 		}
 		.menu li a:hover{
 			color:#58c93a;
 			border-bottom:3px solid #58c93a;
-			border-left:1px solid #1d1d1d;
 			border-right:1px solid #1d1d1d;
 		}
+.content{
+	border-right:1px solid #e1e0e0;
+	border-left:1px solid #e1e0e0;
+}
 main{
 	float:left;
 	width:63.2%;
@@ -151,7 +157,7 @@ main{
 			background:none;
 			margin-bottom:20px;
 		}
-		article>h2{
+		article>h1{
 			font-size:1.75em;
 			text-transform:uppercase;
 			font-weight:600;
@@ -197,6 +203,7 @@ aside{
 		font-size:0.75em;
 		width:100%;
 		border:1px solid #e1e0e0;
+		border-right:none;
 		padding:18px 18px;
 		}
 	.widget>nav{
@@ -207,6 +214,7 @@ aside{
 		font-size:0.75em;
 		width:100%;
 		border:1px solid #e1e0e0;
+		border-right:none;
 		padding:18px 50px 18px 18px;
 		box-sizing:border-box;
 		position:absolute;
