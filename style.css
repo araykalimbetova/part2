@@ -152,6 +152,25 @@ main{
 			font-size:0;
 			background:none;
 			margin-bottom:20px;
+			position:relative;
+		}
+		.publish{
+			font-size:13px;
+			background:rgba(0, 0, 0, 0.5);
+			color:#fff;
+			padding:10px 20px;
+			width:100%;
+			box-sizing:border-box;
+			position:absolute;
+			bottom:-60px;
+			text-transform:uppercase;
+			transition:bottom 0.1s linear;
+			-webkit-transition:bottom 0.1s linear;
+			-moz-transition:bottom 0.1s linear;
+			-o-transition:bottom 0.1s linear;
+		}
+		article>header:hover .publish{
+			bottom:0;
 		}
 		article>h1{
 			font-size:1.75em;
@@ -172,6 +191,10 @@ main{
 			display:inline-block;
 			border-radius:25px;
 			text-decoration:none;
+			transition:all 0.3s linear;
+			-webkit-transition:all 0.3s linear;
+			-o-transition:all 0.3s linear;
+			-moz-transition:all 0.3s linear;
 		}
 		a:hover.more{
 			color:#339933;
